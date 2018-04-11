@@ -1,0 +1,153 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BMath
+</name>
+</assembly>
+<members>
+<member name="T:BMath.My.MyWpfExtension">
+ <summary>
+ Module used to define the properties that are available in the My Namespace for WPF
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:BMath.My.MyWpfExtension.Application">
+ <summary>
+ Returns the application object for the running application
+ </summary>
+</member>
+<member name="P:BMath.My.MyWpfExtension.Computer">
+ <summary>
+ Returns information about the host computer.
+ </summary>
+</member>
+<member name="P:BMath.My.MyWpfExtension.User">
+ <summary>
+ Returns information for the current user.  If you wish to run the application with the current 
+ Windows user credentials, call My.User.InitializeWithWindowsUser().
+ </summary>
+</member>
+<member name="P:BMath.My.MyWpfExtension.Log">
+ <summary>
+ Returns the application log. The listeners can be configured by the application's configuration file.
+ </summary>
+</member>
+<member name="P:BMath.My.MyWpfExtension.Windows">
+ <summary>
+ Returns the collection of Windows defined in the project.
+ </summary>
+</member>
+<member name="T:BMath.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:BMath.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:BMath.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:BMath.My.Resources.Resources.add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BMath.My.Resources.Resources.left">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BMath.My.Resources.Resources.minus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BMath.My.Resources.Resources.msgSubVariables">
+<summary>
+  Looks up a localized string similar to Sub Variables not allowed..
+</summary>
+</member>
+<member name="P:BMath.My.Resources.Resources.msgVariableDeclared">
+<summary>
+  Looks up a localized string similar to Variable already declared..
+</summary>
+</member>
+<member name="P:BMath.My.Resources.Resources.Name">
+<summary>
+  Looks up a localized string similar to Name:.
+</summary>
+</member>
+<member name="P:BMath.My.Resources.Resources.open">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BMath.My.Resources.Resources.Result">
+<summary>
+  Looks up a localized string similar to Result:.
+</summary>
+</member>
+<member name="P:BMath.My.Resources.Resources.right">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BMath.My.Resources.Resources.save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:BMath.My.Resources.Resources.Title">
+<summary>
+  Looks up a localized string similar to BMath.
+</summary>
+</member>
+<member name="P:BMath.My.Resources.Resources.Variables">
+<summary>
+  Looks up a localized string similar to Variables.
+</summary>
+</member>
+<member name="T:BMath.Application">
+<summary>
+Application
+</summary>
+</member>
+<member name="M:BMath.Application.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="M:BMath.Application.Main">
+<summary>
+Application Entry Point.
+</summary>
+</member>
+<member name="T:BMath.MainWindow">
+<summary>
+MainWindow
+</summary>
+</member>
+<member name="M:BMath.MainWindow.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+<member name="T:BMath.uscVariable">
+<summary>
+uscVariable
+</summary>
+</member>
+<member name="M:BMath.uscVariable.InitializeComponent">
+<summary>
+InitializeComponent
+</summary>
+</member>
+</members>
+</doc>

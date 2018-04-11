@@ -1,0 +1,84 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BMathInterpreter
+</name>
+</assembly>
+<members>
+<member name="T:BMathInterpreter.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:BMathInterpreter.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:BMathInterpreter.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:BMathInterpreter.Interpreter.fnEvaluate(BMathInterpreter.clsExpression)">
+ <summary>
+ Evaluate the expression
+ </summary>
+ <param name="p_objExpression">Expression class</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BMathInterpreter.Interpreter.fnEvaluate(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+ <summary>
+ Evaluate the expression
+ </summary>
+ <param name="p_strExpression">Math Expression</param>
+ <param name="p_objVaribles">Expression variables</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BMathInterpreter.Interpreter.fnEvaluate(System.String)">
+ <summary>
+  Evaluate the expression
+ </summary>
+ <param name="p_strExpression">Math Expression</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BMathInterpreter.Interpreter.fnValidate(BMathInterpreter.clsExpression)">
+ <summary>
+ Validate the expression
+ </summary>
+ <param name="p_objExpression">Expression class</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BMathInterpreter.Interpreter.fnValidate(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+ <summary>
+ Validate the expression
+ </summary>
+ <param name="p_strExpression">Math Expression</param>
+ <param name="p_objVaribles">Expression variables</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BMathInterpreter.Interpreter.fnValidate(System.String)">
+ <summary>
+ Validate the expression
+ </summary>
+ <param name="p_strExpression">Math Expression</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:BMathInterpreter.Interpreter.fnBreakVariables(System.String)">
+ <summary>
+ Break variables from a expression.
+ </summary>
+ <param name="p_strExpressions">Expression</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
